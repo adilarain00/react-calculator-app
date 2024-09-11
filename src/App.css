@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* CONTAINER */
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
+
+/* CALCULATOR */
+.calculator {
+  padding: 25px 30px;
+  background: #1f1f1f;
+  border-radius: 20px;
+  box-shadow: 0px 0px 19px -2px rgba(0, 0, 0, 0.41);
+  -webkit-box-shadow: 0px 0px 19px -2px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 0px 0px 19px -2px rgba(0, 0, 0, 0.41);
+}
+
+/* INPUT FORM */
+form .display {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 0px 15px 0px;
+}
+
+form .display input {
+  flex: 1;
+  padding: 10px 35px;
+  text-align: right;
+  font-size: 40px;
+  background: #1f1f1f;
+  color: #ffffff;
+  border: 3px solid #1f3741;
+}
+
+form input {
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #c4e2f7;
+  background: #28282a;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+/* BUTTONS */
+form input[type="button"]:hover {
+  background-color: rgb(47, 142, 35);
+  color: rgb(255, 255, 255);
+}
+
+form input.equal {
+  font-size: 26px;
+  width: 123px;
+}
+
+.btn-ac {
+  background-color: #c62626;
+}
+
+.btn-blue,
+.equal {
+  background-color: #004a77;
+}
