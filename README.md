@@ -1,6 +1,6 @@
 # React Calculator App.
 
-<img src="./public/Calculator.PNG" style="height: 80%; width: 100%; border-radius: 10px" />
+<img src="./public/Calculator.PNG" style="height: 70%; width: 100%; border-radius: 10px" />
 
 ### Description
 
