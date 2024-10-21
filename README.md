@@ -4,6 +4,8 @@
 
 ### Live Demo: https://adilarain00.github.io/React-Calculator-App/
 
+<br />
+
 ### Description
 
 This project showcases a responsive calculator app, designed with vibrant color combinations and smooth functionality. Crafted in React with well-structured code, the app is visually appealing and works perfectly on all devices.
